@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.logo-mario {
+
+    width: 400px;
+}
+
+.Mario-Luigi {
+    height: 400px;
+}
+
+.caixa-principal {
+    width: 40%;
+    
+}
+
+.caixa-video-mario {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+
+}
+
+video {
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.mascara-video {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(24, 24, 26, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    
+}
+
+p {
+    color: white;
+    margin-top: 10px;
+    font-size:20px;
+    position: center;
+}
+
+button {
+    width: 166px;
+    height: 30px;
+    background-color: #C51111;
+    border:none;
+    border-radius:  4px;
+    color:white;
+    margin-top:5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+
+    opacity: 0.7;
+}
+
+form {align-items: end;
+
+
+
+}
+
+textarea {
+    width: 335px;
+    height: 40px;
+    background-color: white;
+}
+
